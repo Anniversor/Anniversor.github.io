@@ -118,7 +118,7 @@
   }
 
   function event () {
-    document.addEventListener('click', function (e) {
+    document.addEventListener('mousedown', function (e) {
       textIndex++
       if (textIndex >= texts.length) {
         textIndex--
