@@ -46,17 +46,6 @@ body {
     height: 100% auto;
 }
 
-#footerContent {
-    font-family: sans-serif;
-    font-size: 110%;
-    color: rgba(200, 220, 255, .3);
-    width: 100%;
-    position: fixed;
-    bottom: 0%;
-    padding: 20%;
-    text-align: center;
-    z-index: 20;
-}
 
 #footer {
     position: absolute;
@@ -66,9 +55,9 @@ body {
 }
 
 #scene {
-    height: 100%;
+    width: 100%;
     position: absolute;
-    margin-left: -5%;
+    bottom: 0%
 }
 
 a {
@@ -97,4 +86,5 @@ a:hover {
 
 #canvas{
     margin: 0 auto;
+    width: 60%
 }
